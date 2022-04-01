@@ -236,7 +236,6 @@ curl --request GET \
 **Funcionamento**
 
 ![image](https://user-images.githubusercontent.com/61089745/161170955-6717d348-2d44-4bf4-8fcc-ea1ac64fcb3f.png)
-
 Em
 ### Pegar historico por id
 Pega um historico por id
