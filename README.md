@@ -258,8 +258,6 @@ curl --request GET \
 
 ### Pegar historico por usuario
 
-Pega todos os historicos de um usuario
-
 **Path**
 ```
 GET <host>/spring-app/historico/usuario/<id_usuario>
@@ -274,8 +272,6 @@ curl --request GET \
 ![image](https://user-images.githubusercontent.com/61089745/161171097-b097280a-2ecc-4ac3-874d-ef6c08a63442.png)
 
 ### Historico pelo termo
-
-Pega todos os historicos de um termo
 
 **Path**
 ```
@@ -329,7 +325,6 @@ curl --request GET \
 ### Historico por ligacao
 
 Pega todos os historicos com ligacao ativo
-
 
 **Path**
 ```
