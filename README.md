@@ -39,7 +39,7 @@ curl --request POST \
 ```
 
 **Funcionamento**
-![Criar Termo](gifs/criar_termo.gif)
+![image](https://user-images.githubusercontent.com/61089745/161169371-f0968594-7d3c-4a18-a73b-34a48ef07cc7.png)
 
 
 ### Get All
@@ -56,7 +56,8 @@ curl --request GET \
   --url http://localhost:8081/spring-app/termo/all
 ```
 **Funcionamento**
-![Pegar termos](gifs/pegar_todos_termos.gif)
+![image](https://user-images.githubusercontent.com/61089745/161169527-5d588983-018f-4909-86e3-443b67476154.png)
+
 
 
 ### Get By id
@@ -75,7 +76,7 @@ curl --request GET \
 ```
 
 **Funcionamento**
-![Pegar por id](gifs/pegar_por_id.gif)
+![image](https://user-images.githubusercontent.com/61089745/161169580-90e5e693-2fb5-4bc4-a15d-2bf15e81e297.png)
 
 ### Get latest
 Pega o termo mais recente
@@ -92,7 +93,7 @@ curl --request GET \
 
 **Funcionamento**
 
-![Pegar o mais recent](gifs/pegar_o_mais_recente.gif)
+![image](https://user-images.githubusercontent.com/61089745/161169655-240bf95c-2caa-4e12-b5da-661a7b7eea47.png)
 
 
 ### Usuario
@@ -130,15 +131,15 @@ curl --request POST \
 
 Criando usuario sem informar termo
 
-![Criando usuario sem informar termo](gifs/criar_usuario_com_termo_inexistente.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170350-f8865600-9800-448d-b1db-3170c0cc04d0.png)
 
 Criando usuario com termo antigo
 
-![Criando usuario com termo antigo](gifs/criar_usuario_com_termo_antigo.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170416-979cbaec-c178-4d60-a2ca-ecde89c839ba.png)
 
 Criando usuario
 
-![Criando usuario](gifs/criar_usuario.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170480-dbc56e30-a3e5-47da-be41-757dc769eced.png)
 
 ### Atualizar usuario
 Atualiza um usuario
@@ -176,23 +177,7 @@ curl --request PUT \
 **Funcionamento**
 
 Atualizar com termo invalido
-![Atualizar com termo invalido](gifs/atualizar_com_termo_invalido.gif)
-
-Atualizar usuario sem alteracoes em config ou termo não gera historico
-
-![Atualizar usuario sem alteracoes em config ou termo não gera historico](gifs/atualizar_usuário_sem_alteracoes_em_config_ou_termo_nao_gera_historico.gif)
-
-Atualizar somente config gera apenas historico de config
-
-![Atualizar somente config gera apenas historico de config](gifs/atualizar_somente_config_gera_historico_apenas_de_config.gif)
-
-Atualizar somente termo gerar apenas historico de termo
-
-![Atualizar somente termo gerar apenas historico de termo](gifs/atualizar_somente_termo_gerar_historico_apenas_de_termo.gif)
-
-Atualizar termo e config gera historico de termo e config
-
-![Atualizar termo e config gera historico de termo e config](gifs/atualizar_termo_config.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170601-d0dc452f-e086-4b80-9cc6-2091a02ef9d4.png)
 
 ### Pegar as configs do usuario
 Pega as configs de um usuario
@@ -210,8 +195,7 @@ curl --request GET \
 
 **Funcionamento**
 
-![Pegar configs usuario](gifs/pegar_configs_usuario.gif)
-
+![image](https://user-images.githubusercontent.com/61089745/161170800-2e2a26de-c29d-4931-ab29-247839bc5c7f.png)
 
 ### Pegar termo do usuario
 Pega o termo aceito pelo usuario
@@ -230,7 +214,7 @@ curl --request GET \
 
 **Funcionamento**
 
-![Pegar termo do usuario](gifs/pegar_usuario_termo.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170851-c22247a3-b27f-4f60-9844-24a8a4c049e8.png)
 
 
 ## Historico
@@ -251,9 +235,9 @@ curl --request GET \
 
 **Funcionamento**
 
-![Pegar todos historicos](gifs/pegar_todos_historicos.gif)
+![image](https://user-images.githubusercontent.com/61089745/161170955-6717d348-2d44-4bf4-8fcc-ea1ac64fcb3f.png)
 
-
+Em
 ### Pegar historico por id
 Pega um historico por id
 
@@ -270,7 +254,7 @@ curl --request GET \
 
 **Funcionamento**
 
-![Pegar historico por id](gifs/historico_id.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171013-847f8523-13e1-478a-8590-9a3da05bf4eb.png)
 
 
 ### Pegar historico por usuario
@@ -288,7 +272,7 @@ curl --request GET \
 ```
 
 **Funcionameto**
-![Pegar historico por usuario](gifs/historico_usuario.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171097-b097280a-2ecc-4ac3-874d-ef6c08a63442.png)
 
 ### Historico pelo termo
 
@@ -306,7 +290,7 @@ curl --request GET \
 ```
 
 **Funcionameto**
-![Historico pelo termo](gifs/historico_termo.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171178-ef3037b8-e834-4f02-a24b-100486a07dcb.png)
 
 ### Historico por sms
 Pega todos os historicos com sms ativo
@@ -324,9 +308,9 @@ curl --request GET \
 ```
 
 **Funcionameto**
-![Historico por sms](gifs/historico_sms.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171387-4078c2e6-ade8-4266-90f2-563df6471a2b.png)
 
-### Historico pelo whats
+### Histórico pelo whats
 Pega todos os historicos com whats
 
 **Path**
@@ -341,7 +325,7 @@ curl --request GET \
 ```
 
 **Funcionameto**
-![Historico pelo whats](gifs/historico_whats.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171450-428e7242-bace-4027-a553-1e895a089537.png)
 
 ### Historico por ligacao
 
@@ -360,4 +344,4 @@ curl --request GET \
 ```
 
 **Funcionameto**
-![Historico por ligacao](gifs/historico_ligacao.gif)
+![image](https://user-images.githubusercontent.com/61089745/161171518-6b20b9b6-9c6f-43bb-b09f-f29296a2639a.png)
