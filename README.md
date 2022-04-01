@@ -15,7 +15,7 @@ O projeto tem como objetivo atender a LGPD (Lei geral da proteção de dados), a
 
 ### ENDPOINTS
 
-### Termo
+## Termo
 
 ### Criar termo
 
@@ -95,8 +95,7 @@ curl --request GET \
 
 ![image](https://user-images.githubusercontent.com/61089745/161169655-240bf95c-2caa-4e12-b5da-661a7b7eea47.png)
 
-
-### Usuario
+##  Usuário
 
 ### Criar usuario
 Cria um usuario
